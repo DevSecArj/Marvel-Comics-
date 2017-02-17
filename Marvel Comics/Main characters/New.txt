@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+<head>
+<style>
+
+body{
+ color:yellow;
+ background-size: contain;
+ margin:0;
+ padding:0;
+text-shadow: 1px 1px 2px orange, 0 0 20px blue, 0 0 5px blue;
+}
+
+
+p,pre {
+    font-family: "Segoe UI";
+}
+
+
+
+</style>
+
+</head>
+
+<body background="gotg.jpg">
+
+
+<h1 style="Font-family:Verdana " >Guardians of the Galaxy</h1>
+<p>
+
+<pre>
+
+
+
+
+</pre>
+
+</p>
+
+
+</body>
+</html>

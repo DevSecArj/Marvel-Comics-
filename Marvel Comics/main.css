@@ -1,0 +1,137 @@
+
+
+#header {
+    background: #c2c2c2;
+    height: 70px;
+}
+
+
+h1,h2,h3{
+
+font-family:"Lucida Bright";
+}
+
+h1:hover{
+color:#DA1919;
+text-shadow: 1px 1px 2px RED, 0 0 25px black, 0 0 5px brown;
+
+
+}
+
+body{
+
+background: url("Mainbg2.jpg") ;
+background-size:cover;
+font-family:"Maiandra GD"; 
+color:white; 
+
+    }
+
+.menu{
+ max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+ul#menu li  {
+border: 1px solid BLACK;
+border-collapse: collapse;
+padding:22px;
+display:inline;
+font-family:Cooper;
+font-size:20px;	
+background-color:black;
+color: white;
+
+
+  
+           }
+ul#menu li a{
+
+background-color:none;
+color: white;
+text-decoration:none;
+}
+
+ul#menu li:hover {
+border: 1px solid brown;
+background-color:#E41515;
+
+font-family:"Cooper std";	
+
+           }
+
+
+
+
+
+
+p{
+font-size:23px;
+
+
+}
+
+
+ul#Read li {
+border:1px solid white;
+display:inline;
+font-size:23px;
+padding:12px;
+text-decoration:none;
+margin-left:140px;
+-webkit-transition: .6s ease-in-out;
+	transition: .6s ease-in-out;
+
+}
+
+ul#Read a{
+text-decoration:none;
+color:white;
+}
+
+ul#Read li:hover{
+padding:12px;
+background-color:#E41515;
+
+}
+
+
+.marv {
+position:relative;
+width:625px;
+height:150px;
+}
+.marv img {
+position:absolute;
+top:0;
+left:0;
+-webkit-transition: opacity 1.1s ease;
+transition: opacity 1.1s ease;
+}
+.marv:hover .image1 {
+-moz-box-shadow: 0 0 10px #ccc;
+ -webkit-box-shadow: 0 0 10px #ccc; 
+box-shadow: 0 0 10px #ccc; 
+opacity:0;
+}
+
+.dare{
+height:411px; width:911px;
+
+}
+
+.marg{
+
+margin-left:70px;
+}
+
+
+.abc{
+margin-left:220px;
+height:270px; 
+}

@@ -1,0 +1,58 @@
+body{
+
+background: url("Mainbg2.jpg") ;
+background-size:cover;
+font-family:"Maiandra GD"; 
+color:white; 
+
+    }
+
+
+#header {
+    background: #c2c2c2;
+    height: 70px;
+}
+
+.menu{
+ max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+ul#menu li  {
+border: 1px solid BLACK;
+border-collapse: collapse;
+padding:22px;
+display:inline;
+font-family:Cooper;
+font-size:20px;	
+background-color:black;
+color: white;
+
+
+  
+           }
+ul#menu li a{
+
+background-color:none;
+color: white;
+text-decoration:none;
+}
+
+ul#menu li:hover {
+border: 1px solid brown;
+background-color:#E41515;
+
+font-family:"Cooper std";	
+
+           }
+
+
+
+
+
+

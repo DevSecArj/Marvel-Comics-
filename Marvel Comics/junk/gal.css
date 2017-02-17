@@ -1,0 +1,42 @@
+ figure img {
+        -webkit-transition: all 0.7s ease;
+         transition: all 0.7s ease;
+
+       -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+ figure:hover img {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+
+        -webkit-transform: scale(1.25);
+	transform: scale(1.25);
+
+         border-radius:50%;
+         box-shadow: 0 10px 6px -6px grey;
+
+}
+ 
+body{
+ color:yellow;
+ background-size: cover;
+ margin:0;
+ padding:0;
+text-shadow: 1px 1px 2px orange, 0 0 20px blue, 0 0 5px blue;
+}
+
+
+h2 :hover{
+color:red;
+}
+
+
+
+p,pre {
+    font-family: "Segoe UI";
+}
+
